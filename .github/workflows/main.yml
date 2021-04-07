@@ -3,16 +3,14 @@ on: push
 name: Build and deploy GH Pages
 jobs:
   build:
-    name: Deploy
+    name: sintemal/zola-deploy-action
     runs-on: ubuntu-latest
     steps:
-      # Checkout
-      - uses: actions/checkout@v2
-      # Build & deploy
-      - name: Deploy to gh-pages branch
-        uses: sintemal/zola-deploy-action@v0.13.0
-        env:
-          # Target branch
-          PAGES_BRANCH: gh-pages
-          # Provide personal access token
-          TOKEN: ${{ secrets.TOKEN }}
+    - uses: actions/checkout@master
+    - name: sintemal/zola-deploy-action
+      uses: sintemal/zola-deploy-action@master
+      env:
+        PAGES_BRANCH: gh-pages
+        BUILD_DIR: .
+        TARGET_REPOSITORY: sintemal/sintemal.github.io 
+        TOKEN: ${{ secrets.TOKEN }}
