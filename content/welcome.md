@@ -7,7 +7,7 @@ tags = ["test"]
 +++
 
 Welcome to my blog. 
-This is only a post for testing different markdown features.
+This is a post for testing different markdown features.
 
 Code block
 
