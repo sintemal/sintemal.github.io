@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>sintemal&#x27;s blog</title>
+	<link href="https://sintem.al/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://sintem.al"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-04-07T00:00:00+00:00</updated>
+	<id>https://sintem.al/atom.xml</id>
+	<entry xml:lang="en">
+		<title>Test Post</title>
+		<published>2021-04-07T00:00:00+00:00</published>
+		<updated>2021-04-07T00:00:00+00:00</updated>
+		<link href="https://sintem.al/welcome/" type="text/html"/>
+		<id>https://sintem.al/welcome/</id>
+		<content type="html">&lt;p&gt;Welcome to my blog. 
+This is a post for testing different markdown features.&lt;&#x2F;p&gt;
+&lt;p&gt;Code block&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;#!&#x2F;usr&#x2F;bin&#x2F;python3
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;class &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ebcb8b;&quot;&gt;HelloPrinter&lt;&#x2F;span&gt;&lt;span style=&quot;color:#eff1f5;&quot;&gt;:
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;__init__&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;thing&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;):
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;.thing = thing
+        
+    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;def &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;__call__&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;):
+        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;print&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;f&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;Hello, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;{&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;self&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;.thing}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;!&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;)
+
+
+printer = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;HelloPrinter&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;(&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;World&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;&amp;quot;)
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;printer&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;()
+
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;# prints: Hello, World!
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Inline code: &lt;code&gt;print(&amp;quot;Hello world!&amp;quot;)&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Basic typography:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Italic text&lt;&#x2F;em&gt;.  &lt;strong&gt;Bold text&lt;&#x2F;strong&gt;. &lt;em&gt;&lt;strong&gt;Italic bold&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Link: &lt;a href=&quot;https:&#x2F;&#x2F;sintem.al&#x2F;welcome&#x2F;#&quot;&gt;click me&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;header-2&quot;&gt;Header 2&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;header-3&quot;&gt;Header 3&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;header-4&quot;&gt;Header 4&lt;&#x2F;h4&gt;
+&lt;p&gt;Quote:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Theory is when you know everything but nothing works.
+Practice is when everything works but no one knows why.
+In our lab, theory and practice are combined: nothing works and no one knows why.&amp;quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Lists:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A&lt;&#x2F;li&gt;
+&lt;li&gt;B&lt;&#x2F;li&gt;
+&lt;li&gt;CDEF&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol&gt;
+&lt;li&gt;One&lt;&#x2F;li&gt;
+&lt;li&gt;Two&lt;&#x2F;li&gt;
+&lt;li&gt;Three&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Horizontal line:&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;This is where the post summary ends.&lt;&#x2F;p&gt;
+&lt;span id=&quot;continue-reading&quot;&gt;&lt;&#x2F;span&gt;
+&lt;p&gt;The second part follows here.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;shortcodes&quot;&gt;Shortcodes&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;code&gt;figure&lt;&#x2F;code&gt; shortcode:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;figure(src=&amp;quot;http:&#x2F;&#x2F;rustacean.net&#x2F;assets&#x2F;rustacean-flat-gesture.png&amp;quot;,
+       style=&amp;quot;width: 25%;&amp;quot;,
+       position=&amp;quot;center&amp;quot;
+       caption_position=&amp;quot;left&amp;quot;,
+       caption=&amp;quot;Ferris, the (unofficial) Rust mascot&amp;quot;
+       caption_style=&amp;quot;font-weight: bold; font-style: italic;&amp;quot;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;  &lt;figure class=&quot;center&quot; &gt;
+    &lt;img src=&quot;http:&#x2F;&#x2F;rustacean.net&#x2F;assets&#x2F;rustacean-flat-gesture.png&quot; style=&quot;width: 25%;&quot; &#x2F;&gt;
+    
+      &lt;figcaption class=&quot;left&quot; style=&quot;font-weight: bold; font-style: italic;&quot;&gt;Ferris, the (unofficial) Rust mascot&lt;&#x2F;figcaption&gt;
+    
+  &lt;&#x2F;figure&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;code&gt;image&lt;&#x2F;code&gt; shortcode:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;&quot;&gt;
+&lt;code&gt;&lt;span style=&quot;color:#c0c5ce;&quot;&gt;image(src=&amp;quot;https:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;commons&#x2F;3&#x2F;35&#x2F;Tux.svg&amp;quot;,
+      position=&amp;quot;left&amp;quot;)
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;  &lt;img src=&quot;https:&#x2F;&#x2F;upload.wikimedia.org&#x2F;wikipedia&#x2F;commons&#x2F;3&#x2F;35&#x2F;Tux.svg&quot; class=&quot;left&quot; &#x2F;&gt;
+</content>
+	</entry>
+</feed>
